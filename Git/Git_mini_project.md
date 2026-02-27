@@ -315,24 +315,6 @@ git log --oneline --graph --all
 
 ---
 
-# Summary Workflow
-
-```
-edit file
-↓
-git add file
-↓
-git commit
-↓
-git branch (optional)
-↓
-git merge (optional)
-↓
-git push (remote)
-```
-
----
-
 # Most Important Commands
 
 ```bash
