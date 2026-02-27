@@ -1,5 +1,5 @@
 # Git Tutorial
-<img width="800" height="300" alt="Git-logo svg" src="https://github.com/user-attachments/assets/2e8094fd-9ed0-49d7-a46c-d6a5d446324b" />
+<img width="400" height="150" alt="Git-logo svg" src="https://github.com/user-attachments/assets/2e8094fd-9ed0-49d7-a46c-d6a5d446324b" />
 
 ---
 
