@@ -3,7 +3,7 @@
 
 ---
 
-# Git
+
 Git is a version control system that tracks file changes and enables collaboration.
 
 - Created by Linus Torvalds in 2005.
