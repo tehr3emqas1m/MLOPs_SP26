@@ -2,6 +2,7 @@
 
 ![MLOps workflow](https://github.com/user-attachments/assets/3b9769c2-9186-4f1f-9191-c0dfd99e9976)
 
+MLOps (Machine Learning Operations) is the practice of managing and automating the end-to-end lifecycle of machine learning models — from development and training to deployment and monitoring in production.
 
 ## 🚀 MLOps Workflow Stages
 
