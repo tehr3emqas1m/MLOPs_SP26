@@ -242,7 +242,7 @@ git log --oneline
 
 # Branching
 
-<img width="668" height="196" alt="git-branches-merge" src="https://github.com/user-attachments/assets/58146fd7-4649-46aa-93d4-5ddb6e36b17d" />
+<img width="327" height="154" alt="images" src="https://github.com/user-attachments/assets/3122a591-f80f-42f6-a82f-86969e69e9a5" />
 
 
 Check current branch:
