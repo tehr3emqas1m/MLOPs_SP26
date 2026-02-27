@@ -242,6 +242,9 @@ git log --oneline
 
 # Branching
 
+<img width="968" height="496" alt="git-branches-merge" src="https://github.com/user-attachments/assets/58146fd7-4649-46aa-93d4-5ddb6e36b17d" />
+
+
 Check current branch:
 
 ```bash
