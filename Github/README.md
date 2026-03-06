@@ -77,7 +77,7 @@ Create a new repository from your GitHub account.
 ## 3. Connect the Local Repository to the Remote Repository
 
 ```
-git remote add origin1 https://github.com/tehr3emqas1m/my_repo_e.git
+git remote add origin https://github.com/tehr3emqas1m/my_repo_e.git
 ```
 
 Verify the connection:
@@ -88,7 +88,7 @@ git remote -v
 
 ### Notes
 
-- `origin1` is the name of the remote repository.
+- `origin` is the name of the remote repository.
 - It acts as a nickname for the GitHub repository.
 - A project can have multiple remotes, but usually only one is used.
 
@@ -97,7 +97,7 @@ git remote -v
 ## 4. Push Your Code to GitHub
 
 ```
-git push -u origin1 master
+git push -u origin master
 ```
 
 You will be prompted for credentials:
