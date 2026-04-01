@@ -9,6 +9,7 @@ A machine learning web app that classifies Iris flowers using a Random Forest mo
 <pre>
 ml-project/
 ├── train_model.py        # Training script
+├── Dockerfile    
 ├── model/
 │   └── model.pkl         # Saved model (created after training)
 ├── app/
@@ -207,7 +208,7 @@ Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ## 🐳 Docker Deployment
 
-### Dockerfile
+### Dockerfile (project root folder)
 ```dockerfile
 FROM python:3.9-slim
 WORKDIR /app
