@@ -22,7 +22,7 @@ ml-project/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Set Up the Project
 ```bash
