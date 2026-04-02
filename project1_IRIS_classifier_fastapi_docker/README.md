@@ -1,5 +1,5 @@
 # Iris Flower Classifier — FastAPI + Docker
-![Static Badge](https://img.shields.io/badge/Python-ff69b4)
+![Static Badge](https://img.shields.io/badge/Python-orange)
 ![Static Badge](https://img.shields.io/badge/Scikitlearn-red) 
 ![Static Badge](https://img.shields.io/badge/FastAPI-gray) 
 ![Static Badge](https://img.shields.io/badge/uvicorn-yellowgreen)
