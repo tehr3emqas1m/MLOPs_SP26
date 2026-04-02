@@ -4,6 +4,8 @@ A machine learning web app that classifies Iris flowers using a Random Forest mo
 
 ---
 
+<img width="1313" height="602" alt="Screenshot from 2026-04-02 13-08-08" src="https://github.com/user-attachments/assets/5079c268-4b01-4920-9f49-789c8b6520e2" />
+
 ## 📁 Project Structure
 
 <pre>
