@@ -1,4 +1,11 @@
 # Iris Flower Classifier — FastAPI + Docker
+![Static Badge](https://img.shields.io/badge/Python-ff69b4)
+![Static Badge](https://img.shields.io/badge/Scikitlearn-red) 
+![Static Badge](https://img.shields.io/badge/FastAPI-gray) 
+![Static Badge](https://img.shields.io/badge/uvicorn-yellowgreen)
+![Static Badge](https://img.shields.io/badge/joblib-green)
+![Static Badge](https://img.shields.io/badge/jinja2-green)
+![Static Badge](https://img.shields.io/badge/Docker-blue)
 
 A machine learning web app that classifies Iris flowers using a Random Forest model, served via FastAPI and containerized with Docker.
 
