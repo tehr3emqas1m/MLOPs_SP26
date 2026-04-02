@@ -268,6 +268,9 @@ Visit: [http://localhost:5000](http://localhost:5000)
 
 ## Iris Species
 
+![Three-species-of-IRIS-flower](https://github.com/user-attachments/assets/c3df8d38-480d-4a83-83eb-b6495b0eabc2)
+
+
 | Class | Species |
 |-------|---------|
 | 0 | Setosa |
