@@ -264,7 +264,7 @@ Visit: [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## 🌺 Iris Species
+## Iris Species
 
 | Class | Species |
 |-------|---------|
