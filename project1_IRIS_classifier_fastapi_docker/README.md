@@ -1,4 +1,4 @@
-# 🌸 Iris Flower Classifier — FastAPI + Docker
+# Iris Flower Classifier — FastAPI + Docker
 
 A machine learning web app that classifies Iris flowers using a Random Forest model, served via FastAPI and containerized with Docker.
 
@@ -53,7 +53,7 @@ numpy==1.24.3
 
 ---
 
-## 🧠 Train the Model
+## Train the Model
 
 Create `train_model.py` in the project root:
 ```python
@@ -79,7 +79,7 @@ python train_model.py
 
 ---
 
-## ⚡ FastAPI Application
+## FastAPI Application
 
 Create `app/main.py`:
 ```python
@@ -131,7 +131,7 @@ async def health():
 
 ---
 
-## 🌐 HTML Frontend
+## HTML Frontend
 
 Create `app/templates/index.html`:
 
@@ -196,7 +196,7 @@ Create `app/templates/index.html`:
 
 ---
 
-## ▶️ Run Locally
+## Run Locally
 ```bash
 cd app
 uvicorn main:app --host 0.0.0.0 --port 5000 --reload
@@ -206,7 +206,7 @@ Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 ### Dockerfile (project root folder)
 ```dockerfile
