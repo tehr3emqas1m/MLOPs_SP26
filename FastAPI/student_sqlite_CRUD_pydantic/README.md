@@ -1,5 +1,4 @@
 
-````
 # Student Database API with Pydantic Validation
 
 A REST API built with **FastAPI** and **SQLite** that demonstrates data validation using **Pydantic**.
@@ -214,4 +213,4 @@ students
 ├── main.py        # FastAPI app and endpoints
 └── students.db    # SQLite database (auto-created on first run)
 ```
-````
+
