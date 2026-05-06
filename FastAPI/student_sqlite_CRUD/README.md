@@ -1,6 +1,6 @@
 # Student Database API
 
-<img width="1200" height="800" alt="crud-infografik-1600-1000" src="https://github.com/user-attachments/assets/3dd8b142-b14a-4774-8c93-3aa337f3ee63" />
+<img width="800" height="600" alt="crud-infografik-1600-1000" src="https://github.com/user-attachments/assets/3dd8b142-b14a-4774-8c93-3aa337f3ee63" />
 
 
 A simple REST API built with **FastAPI** and **SQLite** to manage student records.
