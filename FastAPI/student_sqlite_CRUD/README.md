@@ -26,7 +26,7 @@ pip install fastapi uvicorn
 Run the server:
 
 ```bash
-uvicorn main:app --reload
+uvicorn student_CRUD:app --reload
 ```
 
 The API will be live at `http://127.0.0.1:8000`
