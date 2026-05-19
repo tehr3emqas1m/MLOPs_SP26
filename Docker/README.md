@@ -2,7 +2,6 @@
 
 
 
-```markdown
 # Docker — The Art of Containerization
 
 > *"It works on my machine" — said no Docker user ever.*
