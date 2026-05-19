@@ -1,12 +1,11 @@
-<img width="2117" height="1086" alt="hero" src="https://github.com/user-attachments/assets/2881ae63-2757-4b3f-ace2-deeb18a18576" />
+<img width="960" height="794" alt="what-is-docker" src="https://github.com/user-attachments/assets/be5b57b9-2e97-4fe6-99a3-5fbeef70db9e" />
 
 
 
-# Docker — The Art of Containerization
+# Docker 
 
 Docker is a containerization platform that packages applications with their dependencies into portable containers that run consistently across different environments.
 
-<img width="960" height="794" alt="what-is-docker" src="https://github.com/user-attachments/assets/18e74384-0628-4bb5-97cf-24676b7d25db" />
 
 
 ---
