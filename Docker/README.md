@@ -1,4 +1,3 @@
-Here's your **sexy, sleek, and modern** GitHub README — designed to be visually engaging, easy to scan, and technically sharp. Perfect for a dev portfolio or a team knowledge base.
 
 ---
 
