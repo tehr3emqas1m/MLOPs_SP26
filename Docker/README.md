@@ -4,10 +4,7 @@
 
 # Docker — The Art of Containerization
 
-> *"It works on my machine" — said no Docker user ever.*
-
-Docker is not just a tool. It's a **portability superpower**.  
-Package your app, its dependencies, and its soul into a lightweight, hermetic container that runs the same way everywhere — from your laptop to the cloud.
+Docker is a containerization platform that packages applications with their dependencies into portable containers that run consistently across different environments.
 
 ![Docker Logo](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
