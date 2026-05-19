@@ -170,8 +170,6 @@ docker images | grep hello-demo            # gone
 
 ---
 
-## You Made It.
-
 ---
 ```
 
