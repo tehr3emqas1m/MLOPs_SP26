@@ -6,7 +6,8 @@
 
 Docker is a containerization platform that packages applications with their dependencies into portable containers that run consistently across different environments.
 
-![Docker Logo](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+<img width="960" height="794" alt="what-is-docker" src="https://github.com/user-attachments/assets/18e74384-0628-4bb5-97cf-24676b7d25db" />
+
 
 ---
 
