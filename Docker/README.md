@@ -1,4 +1,4 @@
-<img width="660" height="594" alt="what-is-docker" src="https://github.com/user-attachments/assets/be5b57b9-2e97-4fe6-99a3-5fbeef70db9e" />
+<img width="360" height="294" alt="what-is-docker" src="https://github.com/user-attachments/assets/be5b57b9-2e97-4fe6-99a3-5fbeef70db9e" />
 
 
 
