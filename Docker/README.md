@@ -1,3 +1,6 @@
+<img width="2117" height="1086" alt="hero" src="https://github.com/user-attachments/assets/2881ae63-2757-4b3f-ace2-deeb18a18576" />
+
+
 
 ```markdown
 # Docker — The Art of Containerization
