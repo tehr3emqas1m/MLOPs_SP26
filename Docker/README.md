@@ -13,10 +13,12 @@ Docker is a containerization platform that packages applications with their depe
 ## Core Concepts
 
 ### Docker Engine
-The beating heart. A runtime that builds, runs, and manages containers on a host system.
+Docker Engine is the core software that runs and manages containers on a system.
+
 
 ### Docker Daemon
-The quiet worker in the background. It listens, builds, runs, and distributes containers.
+Docker Daemon is a background process that manages Docker containers, images, networks, and storage volumes by listening for and executing API requests from the Docker client.
+
 
 ```bash
 systemctl status docker      # check if it's alive
@@ -32,13 +34,16 @@ A **read‑only blueprint**. An image goes through a lifecycle:
 **Build → Tag → Push → Pull → Run**
 
 ### Dockerfile
-The recipe. A script that tells Docker how to bake your image, step by step.
+It is a text file containing a series of instructions to automatically build a Docker container image.
+
 
 ### Docker Container
-A **running instance** of an image. Isolated filesystem. Private process space. Its own little universe.
+A container is a  running instance of a Docker image that operates as an isolated execution environment with its own filesystem, process space, network interface, and resource allocation.
+
+
 
 ### Registry (Docker Hub / Private / 3rd Party)
-The library. A place to store and share images.
+Registry is the place to store and share images.
 
 - **Repositories** – collections of related images
 - **Tags** – versions (e.g., `python:3.11-slim`)
