@@ -66,7 +66,6 @@ This project demonstrates Data Version Control (DVC) by simulating a real-world 
 
 ## Project Structure
 
-```
 .
 ├── dataset.csv          # Tracked by DVC (not in Git)
 ├── dataset.csv.dvc      # DVC metadata file (in Git)
