@@ -4,6 +4,11 @@
 [![Python](https://img.shields.io/badge/Python-3.7%2B-3776AB?style=flat&logo=python)](https://python.org/)
 
 
+The issue is that your Markdown code block is **not closed properly**. You opened a code block with ` ```text ` but never closed it with ` ``` ` before the next header.
+
+Here is the corrected version:
+
+```markdown
 # Data Version Control (DVC)
 
 **DVC (Data Version Control)** is an open-source tool that helps track and manage **datasets, machine learning models, and ML pipelines** in the same way Git tracks source code.
@@ -30,17 +35,17 @@ DVC solves this by:
 
 Without DVC:
 
-```text
+```
 Git → code only
 dataset.csv (2 GB) → difficult to manage
 ```
 
 With DVC:
 
-```text
+```
 Git → code + dataset metadata
 DVC → actual dataset storage and versioning
-
+```
 
 # DVC Example Project: Salary Prediction with Versioned Datasets
 
@@ -66,6 +71,7 @@ This project demonstrates Data Version Control (DVC) by simulating a real-world 
 
 ## Project Structure
 
+```
 .
 ├── dataset.csv          # Tracked by DVC (not in Git)
 ├── dataset.csv.dvc      # DVC metadata file (in Git)
@@ -74,7 +80,6 @@ This project demonstrates Data Version Control (DVC) by simulating a real-world 
 ├── model.pkl            # Trained model (in Git or DVC)
 └── .gitignore           # Ignores dataset.csv
 ```
-
 ## Step-by-Step Guide
 
 ### 1. Generate the Data
