@@ -1,6 +1,4 @@
-Here is the complete, corrected Markdown for your GitHub README. Just copy this exactly as is:
 
-```markdown
 [![DVC](https://img.shields.io/badge/DVC-Data%20Version%20Control-13ADC7?style=flat&logo=dvc)](https://dvc.org/)
 [![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=flat&logo=git)](https://git-scm.com/)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-3776AB?style=flat&logo=python)](https://python.org/)
