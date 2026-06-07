@@ -1,37 +1,33 @@
+Here is the complete, corrected Markdown for your GitHub README. Just copy this exactly as is:
 
+```markdown
 [![DVC](https://img.shields.io/badge/DVC-Data%20Version%20Control-13ADC7?style=flat&logo=dvc)](https://dvc.org/)
 [![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=flat&logo=git)](https://git-scm.com/)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-3776AB?style=flat&logo=python)](https://python.org/)
 
-
-The issue is that your Markdown code block is **not closed properly**. You opened a code block with ` ```text ` but never closed it with ` ``` ` before the next header.
-
-Here is the corrected version:
-
-```markdown
 # Data Version Control (DVC)
 
 **DVC (Data Version Control)** is an open-source tool that helps track and manage **datasets, machine learning models, and ML pipelines** in the same way Git tracks source code.
 
 It stores large files (data/models) outside Git while keeping lightweight references to them inside the repository.
 
-### Why is DVC Needed?
+## Why is DVC Needed?
 
 Git works well for code but struggles with:
 
-* Large datasets
-* Machine learning models
-* Frequent changes to data files
+- Large datasets
+- Machine learning models
+- Frequent changes to data files
 
 DVC solves this by:
 
-* **Versioning datasets and models** just like code.
-* **Tracking experiments** and their results.
-* **Enabling reproducibility**, so others can recreate the same training process.
-* **Reducing repository size** by storing large files in remote storage (e.g., cloud storage, shared servers).
-* **Facilitating team collaboration** on data-heavy projects.
+- **Versioning datasets and models** just like code.
+- **Tracking experiments** and their results.
+- **Enabling reproducibility**, so others can recreate the same training process.
+- **Reducing repository size** by storing large files in remote storage (e.g., cloud storage, shared servers).
+- **Facilitating team collaboration** on data-heavy projects.
 
-### Example
+## Example
 
 Without DVC:
 
@@ -53,7 +49,7 @@ DVC → actual dataset storage and versioning
 
 This project demonstrates Data Version Control (DVC) by simulating a real-world scenario where a dataset grows incrementally over time. We create synthetic salary data based on years of experience and train linear regression models on progressively larger datasets.
 
-### What You'll Learn
+## What You'll Learn
 
 - Track datasets with DVC (not Git)
 - Version large files efficiently
@@ -61,7 +57,7 @@ This project demonstrates Data Version Control (DVC) by simulating a real-world 
 - Reproduce results across dataset versions
 - Understand the difference between Git (code) and DVC (data)
 
-### Dataset Evolution
+## Dataset Evolution
 
 | Version | Rows | Description |
 |---------|------|-------------|
@@ -80,6 +76,7 @@ This project demonstrates Data Version Control (DVC) by simulating a real-world 
 ├── model.pkl            # Trained model (in Git or DVC)
 └── .gitignore           # Ignores dataset.csv
 ```
+
 ## Step-by-Step Guide
 
 ### 1. Generate the Data
@@ -271,9 +268,11 @@ At this stage you have:
 ## Homework Exercises
 
 ### Exercise 1: Complete the Dataset
+
 Add the final 500 rows (1001-1500) and train the third model version.
 
 **Tasks:**
+
 1. Append rows 1001-1500 from `orig_data.csv` to `dataset.csv`
 2. Update DVC tracking with `dvc add dataset.csv`
 3. Commit the new data version as `v3-data`
@@ -285,60 +284,8 @@ Add the final 500 rows (1001-1500) and train the third model version.
 Repeat the entire project, but this time track `model.pkl` with DVC instead of Git.
 
 **Steps:**
+
 1. Instead of `git add model.pkl`, use `dvc add model.pkl`
 2. Commit `model.pkl.dvc` to Git instead of the pickle file
 3. Compare the repository size difference between tracking models with Git vs DVC
 
-**Why this matters:** Large model files (hundreds of MB to GB) should NOT be stored in Git. DVC handles them efficiently, just like datasets.
-
-## Key Takeaways
-
-| File Type | Tracking Tool | Why |
-|-----------|--------------|-----|
-| Source code (.py) | Git | Small, text-based, needs version control |
-| Small models (<10MB) | Git | Can be stored directly |
-| Large models (>10MB) | DVC | Too big for Git |
-| Datasets (any size) | DVC | Not code, often too large for Git |
-| DVC metadata (.dvc) | Git | Small pointer files, track versions |
-
-## Requirements
-
-```
-pandas
-numpy
-scikit-learn
-dvc
-```
-
-Install with:
-
-```bash
-pip install pandas numpy scikit-learn dvc
-```
-
-## Additional Commands
-
-```bash
-# Check DVC status
-dvc status
-
-# View DVC tracked files
-dvc list .
-
-# Pull data from remote storage (if configured)
-dvc pull
-
-# Push data to remote storage
-dvc push
-```
-
-## Remote Storage Setup (Optional)
-
-To share DVC-tracked data across teams, configure remote storage:
-
-```bash
-dvc remote add -d myremote s3://my-bucket/dvc-store
-dvc push
-```
-
-Other remote options: GCS, Azure, SSH, HDFS, local directory.
