@@ -65,3 +65,9 @@ MLOps (Machine Learning Operations) is the practice of managing and automating t
 - **Metrics Monitoring:** Prometheus  
 - **Visualization:** Grafana  
 - **Drift Detection:** Evidently  
+
+---
+## Recommended Book
+
+<img width="454" height="601" alt="Screenshot from 2026-06-13 12-26-33" src="https://github.com/user-attachments/assets/5759ba31-e7d9-42db-ad25-027a37bf06bb" />
+
