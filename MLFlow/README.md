@@ -106,66 +106,6 @@ Run the script again:
 python train.py
 ```
 
-## Complete code for both experiments
-
-### Experiment 1: n_estimators = 1
-
-```python
-import mlflow
-from sklearn.datasets import load_iris
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
-
-# Load data
-iris = load_iris()
-X_train, X_test, y_train, y_test = train_test_split(
-    iris.data, iris.target, test_size=0.2, random_state=42
-)
-
-# Start MLflow run
-mlflow.set_experiment("Iris_Project")
-
-with mlflow.start_run():
-    mlflow.log_param("n_estimators", 1)
-    model = RandomForestClassifier(n_estimators=1)
-    model.fit(X_train, y_train)
-    accuracy = accuracy_score(y_test, model.predict(X_test))
-    mlflow.log_metric("accuracy", accuracy)
-    mlflow.sklearn.log_model(model, "my_model")
-    
-    print(f"Accuracy: {accuracy}")
-```
-
-### Experiment 2: n_estimators = 2
-
-```python
-import mlflow
-from sklearn.datasets import load_iris
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
-
-# Load data
-iris = load_iris()
-X_train, X_test, y_train, y_test = train_test_split(
-    iris.data, iris.target, test_size=0.2, random_state=42
-)
-
-# Start MLflow run
-mlflow.set_experiment("Iris_Project")
-
-with mlflow.start_run():
-    mlflow.log_param("n_estimators", 2)
-    model = RandomForestClassifier(n_estimators=2)
-    model.fit(X_train, y_train)
-    accuracy = accuracy_score(y_test, model.predict(X_test))
-    mlflow.log_metric("accuracy", accuracy)
-    mlflow.sklearn.log_model(model, "my_model")
-    
-    print(f"Accuracy: {accuracy}")
-```
-
 ## Results
 
 After running both experiments, open the MLflow UI (`http://localhost:5000`) to:
