@@ -1,7 +1,6 @@
 
-# MLflow Iris Classification Project
 
-## What is MLflow?
+# MLflow?
 
 MLflow is an open-source platform that manages the end-to-end machine learning lifecycle:
 
@@ -10,9 +9,10 @@ MLflow is an open-source platform that manages the end-to-end machine learning l
 - **Package code** - Reproduce runs with consistent environments (conda, docker)
 - **Deploy models** - Serve models via REST API or to cloud platforms
 
-## Project Overview
+# MLflow Iris Classification Project
 
-Now let's use MLflow to track and compare Random Forest's different hyperparameters (`n_estimators=1` vs `2`) by automatically logging accuracy metrics, parameters, and models, then visualizing everything in the MLflow UI to see which performs better on the Iris dataset.
+Now let's use MLflow to track and compare Random Forest's different hyperparameters (`n_estimators=1` vs `2`) by 
+automatically logging accuracy metrics, parameters, and models, then visualizing everything in the MLflow UI to see which performs better on the Iris dataset.
 
 ## Setup
 
