@@ -77,4 +77,3 @@ Response:
 ```bash
 pip freeze > requirements.txt   # after verifying training + serving works
 ```
-```
