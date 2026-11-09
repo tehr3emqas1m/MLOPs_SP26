@@ -1,4 +1,3 @@
-```markdown
 # Salary Regressor — FastAPI
 
 A minimal ML service that predicts salary from years of experience. Trains a linear regression on `salary.csv` and serves it via FastAPI.
