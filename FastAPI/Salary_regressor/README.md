@@ -72,8 +72,3 @@ Response:
 ## ⚠️ Important
 
 - **Train before serving** — `model.pkl` is not committed; run `train_model.py` first.
-- **Pin `scikit-learn`** in `requirements.txt` to the same version used for training. A mismatch (e.g. train on `1.5.1`, serve on `1.6.0`) can cause `InconsistentVersionWarning` or wrong predictions when `joblib.load()` unpickles the model.
-
-```bash
-pip freeze > requirements.txt   # after verifying training + serving works
-```
