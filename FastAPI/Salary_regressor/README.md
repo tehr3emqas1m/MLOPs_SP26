@@ -78,5 +78,3 @@ Response:
 pip freeze > requirements.txt   # after verifying training + serving works
 ```
 ```
-
-Drop this in place of the auto-generated `README.md`. It matches your actual filenames (`red_app.py`, not `app.py`) and covers the two things a grader/teammate will trip on: missing `model.pkl` and sklearn version mismatch.
