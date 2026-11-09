@@ -8,9 +8,9 @@ A minimal ML service that predicts salary from years of experience. Trains a lin
 |---|---|
 | `salary.csv` | Training data (`experience`, `salary`) |
 | `train_model.py` | Trains the model, saves `model.pkl` |
-| `red_app.py` | FastAPI app that loads `model.pkl` and serves predictions |
+| `pred_app.py` | FastAPI app that loads `model.pkl` and serves predictions |
 
-> Note: the app file is `red_app.py`, so the run command uses `red_app:app`.
+> Note: the app file is `pred_app.py`, so the run command uses `pred_app:app`.
 
 ## Requirements
 
@@ -40,7 +40,7 @@ python train_model.py
 ## Run
 
 ```bash
-uvicorn red_app:app --reload --port 8000
+uvicorn pred_app:app --reload --port 8000
 ```
 
 ## Test
